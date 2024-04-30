@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="WIPO patches"/>
+  <Id value="wipo_patches"/>
+  <Version value="v1.2.0"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <ModuleType value ="Community" />
+  <DependedModules>
+    <DependedModule Id="Native"/>
+    <DependedModule Id="Sandbox"/>
+    <DependedModule Id="SandBoxCore"/>
+	<DependedModule Id="StoryMode"/>
+	<DependedModule Id="CustomBattle"/>
+  </DependedModules>
+  <SubModules>
+  </SubModules>
+  <Xmls>
+	<XmlNode>
+		<XmlName id="Items" path="VA_items"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="Items" path="CA_patch"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<!-- WIPO -->
+	<XmlNode>
+		<XmlName id="NPCCharacters" path="wipo_patch"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="NPCCharacters" path="tournament"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+	</XmlNode>
+	<XmlNode>
+		<XmlName id="EquipmentRosters" path="sandboxcore_equipment_sets"/>
+		<IncludedGameTypes>
+			<GameType value = "Campaign"/>
+			<GameType value = "CampaignStoryMode"/>
+			<GameType value = "CustomGame"/>
+		</IncludedGameTypes>
+	</XmlNode>
+  </Xmls>
+</Module>

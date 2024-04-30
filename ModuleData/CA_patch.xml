@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item id="camel_scale_armor_1"
+        name="Camel Scale Armor Bronze Short"
+        mesh="camel_scale_armor_1"
+        culture="Culture.aserai"
+        weight="120"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="70"
+             mane_cover_type="none"
+             family_type="2"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+  <Item id="camel_lamellar_armor_1"
+        name="Camel Lamellar Armor"
+        mesh="camel_lamellar_armor_1"
+        culture="Culture.aserai"
+        weight="120"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="80"
+             mane_cover_type="none"
+             family_type="2"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>  
+  <Item id="camel_lamellar_armor_1b"
+        name="Camel Lamellar Armor B"
+        mesh="camel_lamellar_armor_1b"
+        culture="Culture.aserai"
+        weight="120"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="80"
+             mane_cover_type="none"
+             family_type="2"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item> 
+  <Item id="camel_chainmail_armor_1"
+        name="Camel Chainmail Armor"
+        mesh="camel_chainmail_armor_1"
+        culture="Culture.aserai"
+        weight="130"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="60"
+             mane_cover_type="none"
+             family_type="2"
+             material_type="Chainmail" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+</Items>
